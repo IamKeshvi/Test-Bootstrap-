@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .contact-area {
+        border-bottom: 1px solid #353C46;
+    }
+
+    .contact-content p {
+        font-size: 15px;
+        margin: 30px 0 60px;
+        position: relative;
+    }
+
+    .contact-content p::after {
+        background: #353C46;
+        bottom: -30px;
+        content: "";
+        height: 1px;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%);
+        width: 80%;
+    }
+
+    .contact-content h6 {
+        color: #8b9199;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .contact-content span {
+        color: #353c47;
+        margin: 0 10px;
+    }
+
+    .contact-social {
+        margin-top: 30px;
+    }
+
+    .contact-social>ul {
+        display: inline-flex;
+    }
+
+    .contact-social ul li a {
+        border: 1px solid #8b9199;
+        color: #8b9199;
+        display: inline-block;
+        height: 40px;
+        margin: 0 10px;
+        padding-top: 7px;
+        transition: all 0.4s ease 0s;
+        width: 40px;
+    }
+
+    .contact-social ul li a:hover {
+        border: 1px solid #158beb;
+        color: #158beb;
+    }
+
+    .contact-content img {
+        max-width: 210px;
+    }
+
+    section,
+    footer {
+        background: #1A1E25;
+        color: #868c96;
+    }
+
+    footer p {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    footer img {
+        width: 44px;
+    }
+</style>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00b7eb;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Nature</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log In</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image -->
+    <img src="https://wallpapercave.com/wp/BxiyNrZ.jpg" class="img-fluid1" alt="wallpapercave">
+    <br><br>
+
+    <!-- Cards -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+            <div class="col-lg- col-md-3">
+                <img src="https://avatars.mds.yandex.net/i?id=75672cdf333bec6d287f0616e20c5cd54e7c4c09-9709143-images-thumbs&n=13"
+                    alt="">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Footer -->
+    <section class="contact-area" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="contact-content text-center">
+                        <strong><b><a href="#">Nature</a></strong>
+                        <!-- <a href="#"><img src="https://i.ibb.co/QDy827D/ak-logo.png" alt="logo"></a> -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Quis ipsum </p>
+                        <div class="hr"></div>
+                        <h6>1120 Lorem ipsum dolor sit amet, KC 179050, Chandigarh.</h6>
+                        <h6>+01 2345 6789 12<span>|</span>+01 2345 6789 12</h6>
+                        <div class="contact-social">
+                            <ul>
+                                <li><a class="hover-target" href=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fab fa-github"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fab fa-behance"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2019 <a href="#">Nature</a> All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
